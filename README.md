@@ -96,14 +96,10 @@ Model Pipeline
 
 ## File Structure
 ```
-├── ds.py                          # Realistic data generation
-├── train_churn_model.py          # Complete ML pipeline
+
+
 ├── customer_churn_data.csv       # Generated dataset
 ├── HCL_TECH_Path_Finders.ipynb  # Jupyter notebook analysis
-├── artifacts/                    # Model outputs
-│   ├── model_metrics.csv         # Performance comparison
-│   ├── *_confusion_matrix.png    # Confusion matrix plots
-│   └── *_roc_curve.png          # ROC curve visualizations
 └── README.md                     # Project documentation
 ```
 
@@ -132,4 +128,5 @@ python train_churn_model.py
 ```
 
 This approach ensures practical, business-relevant churn prediction with actionable insights for customer retention strategies. 
+
                             
