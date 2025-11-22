@@ -110,23 +110,7 @@ Model Pipeline
 - **Business Interpretability**: Clear relationship between features and churn
 - **Automated Pipeline**: End-to-end training and evaluation system
 
-## Business Insights
-- High complaint customers (8-10 complaints) have 55.4% churn probability
-- Basic subscription customers churn 2x more than Gold customers
-- Low usage customers (0-50 hours) are high churn risk
-- Premium customers with few complaints show strong retention
 
-## Usage
-```bash
-# Generate realistic dataset
-python ds.py
-
-# Train models and generate artifacts
-python train_churn_model.py
-
-# View results in artifacts/ directory
-```
-
-This approach ensures practical, business-relevant churn prediction with actionable insights for customer retention strategies. 
 
                             
+
